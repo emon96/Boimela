@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Book</title>
+        
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>        
+        
+        <!-- MATERIAL DESIGN ICONIC FONT -->
+    <link rel="stylesheet" href="design_files/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+            
+            <!-- STYLE CSS -->
+    <link rel="stylesheet" href="design_files/css/style.css">
+
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-storage.js"></script>
+
+</head>
+
+<body >
+    <nav class="navbar navbar-expand-lg bg-dark text-white">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="active">
+                    <a class="navbar-brand-center" style="color: whitesmoke; text-decoration-style: wavy;font-size: large;margin-left:2px;"href="MainPage.html">
+                        Home
+                    </a>
+                </li>
+                <li class="active">
+                    <a class="navbar-brand-center" style="color: whitesmoke; text-decoration-style: wavy;font-size: large;margin-left:20px;"href="uploadBook.html">
+                        Upload Book
+                    </a>
+                </li>
+                <li class="active">
+                    <a class="navbar-brand-center" style="color: whitesmoke; text-decoration-style: wavy;font-size: large;margin-left: 20px;"href="myLibrary.html">
+                        My Library
+                    </a>
+                </li>
+                <li class="active">
+                    <a class="navbar-brand-center" style="color: whitesmoke; text-decoration-style: wavy;font-size: large;margin-left: 20px;"href="MainPage.html">
+                        Help And Support
+                    </a>
+                </li>
+                
+                
+            </ul>
+
+            <div class="dropdown navbar-right">
+                <button 
+                id="option-id"
+                class="btn btn-light dropdown-toggle bg-dark text-white" 
+                type="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >
+                    Options
+                </button>
+                <div
+                class="dropdown-menu"
+                aria-labelledby="option-id"
+                >
+                    <a class="dropdown-item" id="btn-logout"href="#" onclick="logout()">
+                        Logout
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+    <div class="form-control" >
+            
+        <div class='container text-center'>
+
+            <form action="">
+                <h3 style="margin-top: 20px;margin-bottom: 20px;"><b>Book Information</b></h3>
+                <div class="form-control" style="margin-top: 50px;">
+                    <input id="title" type="text" placeholder="Title" class="form-control">
+                </div>
+                <div class="form-control" style="margin-top: 50px;">
+                    <input id="author" type="text" placeholder="Author" class="form-control">
+                </div>
+
+                <div class="form-wrapper" style="margin-top: 30px;">
+                    <select name="" id ="type" class="form-control">
+                        <option value="" disabled selected>Type</option>
+                        <option value="Comedy" >Comedy</option>
+                        <option value="Science" >Science</option>
+                        <option value="History" >History</option>
+                    </select>
+                    <i class="zmdi zmdi-caret-down" style="font-size: 15px;"></i>
+
+                </div>
+                <div class="form-control" style="margin-top: 30px;">
+                    <input id="page" type="number" placeholder="Number of Pages" class="form-control">
+                    
+                </div>
+                <div class="form-control" style="margin-top: 30px;">
+                    <input id="price" type="number" placeholder="Price" class="form-control">
+                    
+                </div>               
+                
+
+                <div class="form-control" style="margin-top: 30px;">
+                    <input id="bio" type="text" placeholder="Add Details" class="form-control">
+                    
+                </div>
+
+                <div class="form-group container-login100-form-btn" style="margin-top: 40px;">
+                    <button id="btn-uploadBook" type="button">
+                        Upload
+                        
+                    </button>
+                </div>
+                
+            </form>
+
+        
+        
+        </div>
+
+    </div>
+    
+
+    <script src="js/index.js"></script>
+    
+    
+</body>
+
+</html>

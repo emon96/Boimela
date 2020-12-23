@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.example.emon.myapplication2.CategoryPage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/joblistcolor"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search by Category"/>
+
+    </LinearLayout>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:id="@+id/searchbycategorySpinner"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        >
+    </Spinner>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/joblistcolor"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search by region"/>
+
+    </LinearLayout>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:id="@+id/searchbyregionSpinner"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        >
+    </Spinner>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="bottom"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:id="@+id/searchButtonId"
+            android:text="Search"
+            android:backgroundTint="#4298e9"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

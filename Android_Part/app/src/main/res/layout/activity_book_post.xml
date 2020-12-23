@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    tools:context="com.example.emon.myapplication2.BookPost">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleId"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:hint="title"
+        android:background="@drawable/edittext_circle"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/typeid"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:hint="Type"
+        android:background="@drawable/edittext_circle"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/authorid"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:hint="Author"
+        android:background="@drawable/edittext_circle"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pagenumberid"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:hint="No of Pages"
+        android:background="@drawable/edittext_circle"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/priceid"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:hint="Price"
+        android:background="@drawable/edittext_circle"
+        ></EditText>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_circle"
+            android:text="Post"
+            android:textColor="#ffffff"
+            android:backgroundTint="#000000"
+            android:id="@+id/postbuttonid"
+            android:layout_marginTop="100dp"
+
+            ></Button>
+
+
+
+</LinearLayout>

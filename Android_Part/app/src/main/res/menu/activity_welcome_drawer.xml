@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/allbooksid"
+            android:title="All Books"
+            ></item>
+
+        <item
+            android:id="@+id/stallsid"
+            android:title="Stalls"
+            ></item>
+
+    </group>
+
+    <item android:title="">
+        <menu>
+
+            <item
+                android:id="@+id/settingsId"
+
+                android:title="Settings" />
+            <item
+                android:id="@+id/helpid"
+                android:title="Help"
+                />
+            <item
+                android:id="@+id/aboutid"
+                android:title="About"
+                ></item>
+
+        </menu>
+    </item>
+
+</menu>

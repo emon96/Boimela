@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginRight="7dp"
+    android:layout_marginLeft="7dp"
+    android:background="#ccffffff"
+    tools:context=".PostNewsfeed">
+
+    <ImageButton
+        android:id="@+id/postNewsFeedButtonId"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_circle" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:background="@drawable/edittext_circle"
+        android:id="@+id/newsfeedtitleid"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Details"
+        android:background="@drawable/edittext_circle"
+        android:id="@+id/newsfeeddetailsid"
+        android:padding="5dp"/>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/postButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#3492ed"
+        android:text="Post"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>

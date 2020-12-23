@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="3dp"
+    android:layout_marginBottom="2dp"
+    app:cardBackgroundColor="#ffffff"
+    tools:context="com.example.emon.myapplication2.InterestedJobDetails"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="3dp"
+
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+
+                android:textStyle="bold"
+                android:textColor="#0026ff"
+                android:text="title"
+
+                android:id="@+id/titleId"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:textStyle="bold|italic"
+                    android:text="Job Category : "/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/joblistcolor"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="9dp"
+                        android:textColor="#000000"
+                        android:text="category"
+                        android:id="@+id/categoryId"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:textStyle="bold|italic"
+
+                    android:text="Company : "/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/joblistcolor"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="9dp"
+                    android:textColor="#000000"
+                    android:text="company"
+
+                    android:id="@+id/companyId"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:textStyle="bold|italic"
+                    android:text="Requirement : "/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/joblistcolor"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="9dp"
+
+                    android:textColor="#000000"
+                    android:text="requirement"
+
+                    android:id="@+id/requirementId"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:textStyle="bold|italic"
+                    android:text="Experience : "/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/joblistcolor"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="9dp"
+
+                    android:textColor="#000000"
+                    android:text="experience"
+                    android:id="@+id/experiencetId"/>
+                    </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:textStyle="bold|italic"
+                    android:text="Responsibilities : "/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/joblistcolor"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="9dp"
+
+                    android:textColor="#000000"
+                    android:text="responsibilities"
+                    android:id="@+id/responsibilityId"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:textStyle="bold|italic"
+                    android:text="About : "/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/joblistcolor"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="9dp"
+
+                    android:textColor="#000000"
+                    android:text="About"
+                    android:id="@+id/aboutId"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:textStyle="bold|italic"
+                    android:text="Salary : "/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/joblistcolor"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="9dp"
+
+                    android:textColor="#000000"
+                    android:text="salary"
+                    android:id="@+id/salaryId"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:textStyle="bold|italic"
+                    android:text="Job Location : "/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/joblistcolor"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="9dp"
+
+                    android:textColor="#000000"
+                    android:text="location"
+                    android:id="@+id/locationId"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:textStyle="bold|italic"
+                    android:text="Contact : "/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/joblistcolor"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="9dp"
+
+                    android:textColor="#000000"
+                    android:text="contact"
+                    android:id="@+id/contactId"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:textStyle="bold|italic"
+                    android:text="Deadline : "/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/joblistcolor"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="9dp"
+
+                    android:textColor="#000000"
+                    android:text="deadline"
+
+                    android:id="@+id/deadlineId"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
